@@ -9,6 +9,7 @@ Tìm kiếm sản phẩm
 Thêm sp vào giỏ hàng
 Cập nhập giỏ hàng
 Đặt hàng
+Thanh toán online qua MoMo
 Admin : 
 Đăng nhập
 Quản lý danh mục sản phẩm

@@ -40,11 +40,12 @@
 				</td>
 			</tr>*@
 		<tr style="height:40px">
-			<td></td>
-			<td>
-				<input type="Submit" class="pest_btn" value="Xác nhận đơn hàng" />
-				<a class="pest_btn" href="@Url.Action("Newinformation","Cart")">Chỉnh sửa địa chỉ</a>
-			</td>
+			<td><input type="Submit" class="pest_btn" value="Xác nhận đặt hàng" /></td>
+            <td>
+                
+                <a class="pest_btn" href="@Url.Action("PaymentMoMo","Cart")">Thanh toán qua MOMO</a>
+                <a class="pest_btn" href="@Url.Action("Newinformation","Cart")">Chỉnh sửa địa chỉ</a>
+            </td>
 
 		</tr>
 	}

@@ -170,6 +170,14 @@ namespace ProTechTiveGear.Controllers
 			tem.Deliverydate = date;
 			db.SaveChanges();
 
+            if (!tem.Payments.Any())
+            {
+				Payment pm = new Payment();
+				pm.Payprices = tem.Totalprice;
+				pm.OrderID = tem.ID;
+				db.Payments.Add(pm);
+				db.SaveChanges();
+			}
 		
 			return RedirectToAction("ListOrder");
 
